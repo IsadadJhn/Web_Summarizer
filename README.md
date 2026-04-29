@@ -285,6 +285,4 @@ Project ini melatih kemampuan pada bidang:
 
 
 ## Author
-
-**Nama Kamu**
 GitHub: https://github.com/IsadadJhn
