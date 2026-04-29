@@ -90,7 +90,6 @@ https://ollama.com/
 ---
 
 ### 4. Download Model LLM
-
 ```bash id="poipdz"
 ollama pull llama3.2
 ```
