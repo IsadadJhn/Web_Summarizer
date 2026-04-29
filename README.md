@@ -284,15 +284,8 @@ Project ini melatih kemampuan pada bidang:
 * Modular Programming
 * End-to-End AI Pipeline Development
 
----
-
-## License
-
-MIT License
-
----
 
 ## Author
 
 **Nama Kamu**
-GitHub: 
+GitHub: https://github.com/IsadadJhn
