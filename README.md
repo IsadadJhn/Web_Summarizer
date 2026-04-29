@@ -45,6 +45,7 @@ Hasil Ditampilkan dalam Format Markdown
 * **BeautifulSoup4**
 * **Requests**
 * **python-dotenv**
+* **Cursor**
 
 ---
 
@@ -294,4 +295,4 @@ MIT License
 ## Author
 
 **Nama Kamu**
-GitHub: https://github.com/username-kamu
+GitHub: 
