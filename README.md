@@ -284,5 +284,6 @@ Project ini melatih kemampuan pada bidang:
 * End-to-End AI Pipeline Development
 
 
-## Author
-GitHub: https://github.com/IsadadJhn
+## Kontribusi
+Kontribusi dari kalian bisa diterima🚀!
+Kalau kalian punya ide,menemukan bug, mengupdate kode, atau menambahkan fitur baru, jangan ragu untuk kontribusi!
