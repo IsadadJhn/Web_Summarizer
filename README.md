@@ -285,6 +285,6 @@ Project ini melatih kemampuan pada bidang:
 
 
 ## Kontribusi
-"""
-Kalau kalian punya ide,menemukan bug, mengupdate kode, atau menambahkan fitur baru, jangan ragu untuk kontribusi! /
-Silakan fork repository ini terlebih dahulu, lalu buat pull request berisi perubahan atau peningkatan yang ingin kalian tambahkan 🚀"""
+```
+Kalau kalian punya ide,menemukan bug, mengupdate kode, atau menambahkan fitur baru, jangan ragu untuk kontribusi!/
+Silakan fork repository ini terlebih dahulu, lalu buat pull request berisi perubahan atau peningkatan yang ingin kalian tambahkan 🚀```
