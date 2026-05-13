@@ -283,8 +283,9 @@ Project ini melatih kemampuan pada bidang:
 * Modular Programming
 * End-to-End AI Pipeline Development
 
-
+---
 ## Kontribusi
-```
 Kalau kalian punya ide,menemukan bug, mengupdate kode, atau menambahkan fitur baru, jangan ragu untuk kontribusi!
-Silakan fork repository ini terlebih dahulu, lalu buat pull request berisi perubahan atau peningkatan yang ingin kalian tambahkan 🚀```
+Silakan fork repository ini terlebih dahulu, lalu buat pull request berisi perubahan atau peningkatan yang ingin kalian tambahkan 🚀
+---
+> Keep Coding, Stay Curious,and Never Stop Learning🚀!
