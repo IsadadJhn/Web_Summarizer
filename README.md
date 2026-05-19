@@ -7,9 +7,9 @@ Aplikasi ini mengambil konten dari sebuah website, memproses teksnya, lalu mengh
 
 ## Deskripsi Project
 
-Project ini merupakan implementasi sederhana dari pipeline AI end-to-end untuk melakukan summarization terhadap artikel/halaman website.
+This project is a simple implementation of an end-to-end pipeline for summarizing website.
 
-### Alur Kerja Sistem
+### System Workflow
 
 ```text id="r7wo3i"
 User Memasukkan URL Website
@@ -25,7 +25,7 @@ Hasil Ditampilkan dalam Format Markdown
 
 ---
 
-## Fitur Utama
+## Features
 
 * Merangkum isi artikel/website dari URL
 * Menggunakan Local LLM melalui Ollama
@@ -36,7 +36,7 @@ Hasil Ditampilkan dalam Format Markdown
 
 ---
 
-## Teknologi yang Digunakan
+## Built with
 
 * **Python 3.10+**
 * **Jupyter Notebook**
@@ -45,11 +45,11 @@ Hasil Ditampilkan dalam Format Markdown
 * **BeautifulSoup4**
 * **Requests**
 * **python-dotenv**
-* **Cursor**
+* **Cursor for IDE**
 
 ---
 
-## Struktur Project
+## Project Structure
 
 ```bash id="npkhl9"
 web-summarizer/
@@ -62,7 +62,7 @@ web-summarizer/
 
 ---
 
-## Instalasi
+## Instalation
 
 ### 1. Clone Repository
 
@@ -83,7 +83,7 @@ pip install ollama python-dotenv beautifulsoup4 requests ipython
 
 ### 3. Install Ollama
 
-Install Ollama melalui website resmi:
+Install Ollama from the official website:
 
 https://ollama.com/
 
@@ -96,7 +96,7 @@ ollama pull llama3.2
 
 ---
 
-### 5. Buat File `.env`
+### 5. Make File `.env`
 
 ```env id="8owbzh"
 OLLAMA_API_KEY=optional_dummy_value
@@ -105,25 +105,25 @@ DEEPSEEK_API_KEY=your_deepseek_key
 GEMINI_API_KEY=your_gemini_key
 ```
 
-> Catatan: Untuk penggunaan Ollama secara lokal, API key biasanya tidak wajib.
+> Notes: If you are using ollama , you don't need an API key
 
 ---
 
-## Cara Menjalankan
+## how to run this project
 
-Jalankan Jupyter Notebook:
+run Jupyter Notebook:
 
 ```bash id="lot81y"
 jupyter notebook
 ```
 
-Buka file:
+open file:
 
 ```bash id="87hn9h"
 web_summarizer.ipynb
 ```
 
-Lalu gunakan fungsi berikut:
+then use this function:
 
 ```python id="0e4yu2"
 display_summary("https://example.com/artikel")
@@ -131,23 +131,23 @@ display_summary("https://example.com/artikel")
 
 ---
 
-## Dukungan Cloud API (OpenAI / DeepSeek / Gemini)
+## Support Cloud API (OpenAI / DeepSeek / Gemini)
 
-Walaupun project ini menggunakan **Local LLM dengan Ollama**, arsitekturnya dapat dengan mudah diubah untuk memakai **API model cloud sesungguhnya** seperti:
+Although this project uses local llm via Ollama, the architecture can be easily modified to use real AI Model API's such as:
 
 * OpenAI API
 * DeepSeek API
 * Google Gemini API
 
-Hal ini karena semua backend LLM pada dasarnya menerima **prompt text** dan mengembalikan **response text**, sehingga hanya bagian pemanggilan model yang perlu diganti.
+This is because all LLM backends basically receive prompt text and return response text, so only the model calling part needs to be changed
 
 ---
 
-## Tutorial Menggunakan API Key pada Web Summarizer
+## How to use an API key in web summarizer
 
 ---
 
-### 1. Simpan API Key pada `.env`
+### 1. Save API key in the `.env` file
 
 ```env id="m4r6vt"
 OPENAI_API_KEY=sk-xxxxxxxx
@@ -157,7 +157,7 @@ GEMINI_API_KEY=xxxxxxxx
 
 ---
 
-### 2. Load API Key di Python
+### 2. Load API Key in python
 
 ```python id="7jtvdd"
 import os
@@ -172,7 +172,7 @@ gemini_key = os.getenv("GEMINI_API_KEY")
 
 ---
 
-### 3. Contoh Integrasi OpenAI API
+### 3. Example of OpenAI API Integration
 
 ```python id="sxu0yv"
 from openai import OpenAI
@@ -189,7 +189,7 @@ summary = response.choices[0].message.content
 
 ---
 
-### 4. Contoh Integrasi DeepSeek API
+### 4. Example of Deepsek Integration
 
 ```python id="k9lm7f"
 from openai import OpenAI
@@ -209,7 +209,7 @@ summary = response.choices[0].message.content
 
 ---
 
-### 5. Contoh Integrasi Gemini API
+### 5. Example of Gemini API Integration
 
 ```python id="g2d7hy"
 import google.generativeai as genai
@@ -225,7 +225,7 @@ summary = response.text
 
 ---
 
-## Cara Mengganti Backend Model
+## how to change the backend model
 
 Cukup ubah bagian function summarization dari:
 
